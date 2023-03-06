@@ -9,4 +9,9 @@ pip install git+https://github.com/facebookresearch/xformers.git@0bad001ddd56c08
 pip install triton==2.0.0.dev20221202
 pip install --upgrade lion-pytorch locon
 
+# curl -Lo sd-models/AsiaFacemix-pruned-fp16.safetensors https://huggingface.co/next-social/sd-model/blob/main/AsiaFacemix/AsiaFacemix-pruned-fp16.safetensors
+# curl -Lo sd-models/Chilloutmix-Ni-pruned-fp16-fix.safetensors https://huggingface.co/next-social/sd-explore/resolve/main/SD/Chilloutmix-Ni-pruned-fp16-fix.safetensors
+# curl -Lo sd-models/Chilloutmix-Ni-pruned-fp32-fix.safetensors https://huggingface.co/next-social/sd-explore/resolve/main/SD/Chilloutmix-Ni-pruned-fp32-fix.safetensors
+# curl -Lo sd-models/RealDosMix.safetensors https://huggingface.co/next-social/sd-model/resolve/main/RealDosMix/RealDosMix.safetensors
+
 echo "Install completed"
